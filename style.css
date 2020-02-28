@@ -23,7 +23,7 @@ body{
 }
 .navbar-brand img{
 	height: 50px; /*logo*/
-	padding-left: 500px;
+	padding-left: 500px; /*falsch*/
 }
 .bnt{
 	padding: 5px 25px 5px 25px;
