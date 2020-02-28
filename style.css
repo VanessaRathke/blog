@@ -1,0 +1,76 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+/*-----------------------------------*/
+#user-info{
+	top: 0;
+	position: sticky;
+	z-index: 2;
+}
+.nav-bar{
+	top: 0;
+	position: sticky;
+	z-index: 2; /*bleibt immer oben am rand über allem*/
+	/*padding hier ändern verkleinert navbar Bereich*/
+}
+.navbar-nav{
+	float: right;
+	text-align: right;
+	padding-right: 500px;
+	/*backroung farbe hier verändern=NUR hintergrund der schrift*/
+}
+.navbar-brand img{
+	height: 50px; /*logo*/
+	padding-left: 500px;
+}
+.bnt{
+	padding: 5px 25px 5px 25px;
+	margin: 5px;
+	border-radius: 30px;
+	border: 2px solid #A4A4A4;
+	background: transparent;
+	color: #A4A4A4;
+}
+.bnt:hover{
+border: 2px solid #A4A4A4 !important;
+	background: #A4A4A4 !important;
+	transition: 0.6s;
+	color: #EFEFFB;
+}
+/*-------------------------------------------*/
+#header{
+	height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/header.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	z-index:1;
+	opacity: 0.9;
+}
+
+.user-box{
+top:50%;
+left: 50%;
+transform: translate(-50%, -50%);
+position: absolute;
+opacity:1;
+color: white;
+font-weight: bold;
+}
+.user-box h1{
+	padding-bottom: 20px;
+}
+.user-box h2{
+	padding-top: 20px;
+}
+/*--------------------------------*/
+#mitte{
+	height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(img/logo.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	z-index:1;
+}
